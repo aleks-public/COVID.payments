@@ -1,0 +1,183 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" elementFormQualified="true" attributeFormQualified="false">
+	<property name="submitCovidWorkerRegistrRequest">
+		<typeDef xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" xsi:type="ObjectType" base="d3p1:SubmitCovidWorkerRegistrRequestListType">
+			<property name="software" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+			</property>
+			<property name="versionSoftware" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="15"/>
+			</property>
+			<property name="author" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="120"/>
+			</property>
+			<property name="phone" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="30"/>
+			</property>
+			<property name="email" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="40"/>
+			</property>
+			<property name="emplKpp" type="d3p1:KppType" lowerBound="0" form="Attribute"/>
+			<property name="emplInn" type="d3p1:InnType" lowerBound="1" form="Attribute"/>
+			<property name="emplOgrn" type="d3p1:OgrnType" lowerBound="0" form="Attribute"/>
+			<property name="emplRegnum" type="d3p1:RegnumType" lowerBound="1" form="Attribute"/>
+			<property name="dt1" type="xs:date" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="submitCovidWorkerRegistrResponse">
+		<typeDef xsi:type="ObjectType">
+			<property name="dateTimeReceive" type="xs:dateTime"/>
+			<property name="recriveID">
+				<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="50"/>
+			</property>
+			<property xmlns:d4p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="statusGeneral" type="d4p1:StateType"/>
+			<property xmlns:d4p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="firstErrorList" type="d4p1:ErrorListType" lowerBound="0"/>
+			<property xmlns:d4p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="protocol" type="d4p1:ProtocolType" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<valueType name="AccountType" base="xs:string" variety="Atomic" length="20"/>
+	<valueType name="BatchNoType" base="xs:string" variety="Atomic">
+		<pattern>[C]_\d{10}_(19|20)[0-9]{2}_[0|1][0-9]_[0-3][0-9]_\d{4}:\d{1,2}</pattern>
+	</valueType>
+	<valueType name="BicType" base="xs:string" variety="Atomic">
+		<pattern>\d{9}</pattern>
+	</valueType>
+	<valueType name="FirstNameType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="InnType" base="xs:string" variety="Atomic">
+		<pattern>\d{10,12}</pattern>
+	</valueType>
+	<valueType name="KfRegType" base="xs:decimal" variety="Atomic">
+		<enumeration>1</enumeration>
+		<enumeration>1.05</enumeration>
+		<enumeration>1.1</enumeration>
+		<enumeration>1.15</enumeration>
+		<enumeration>1.2</enumeration>
+		<enumeration>1.25</enumeration>
+		<enumeration>1.3</enumeration>
+		<enumeration>1.35</enumeration>
+		<enumeration>1.4</enumeration>
+		<enumeration>1.45</enumeration>
+		<enumeration>1.5</enumeration>
+		<enumeration>1.55</enumeration>
+		<enumeration>1.6</enumeration>
+		<enumeration>1.65</enumeration>
+		<enumeration>1.7</enumeration>
+		<enumeration>1.75</enumeration>
+		<enumeration>1.8</enumeration>
+		<enumeration>1.85</enumeration>
+		<enumeration>1.9</enumeration>
+		<enumeration>1.95</enumeration>
+		<enumeration>2</enumeration>
+	</valueType>
+	<valueType name="KppType" base="xs:string" variety="Atomic">
+		<pattern>\d{9}</pattern>
+	</valueType>
+	<valueType name="LastNameType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="MiddleNameType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+	<valueType name="OgrnType" base="xs:string" variety="Atomic">
+		<pattern>\d{13,15}</pattern>
+	</valueType>
+	<valueType name="PaycardNumType" base="xs:string" variety="Atomic">
+		<pattern>\d{16,19}</pattern>
+	</valueType>
+	<valueType name="PaymentTypeType" base="xs:integer" variety="Atomic">
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+	</valueType>
+	<valueType name="RecalcReasonType" base="xs:integer" variety="Atomic">
+		<enumeration>1</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>6</enumeration>
+	</valueType>
+	<valueType name="RegnumType" base="xs:string" variety="Atomic">
+		<pattern>\d{10}</pattern>
+	</valueType>
+	<valueType name="SnilsType" base="xs:string" variety="Atomic">
+		<pattern>\d{11}</pattern>
+	</valueType>
+	<valueType name="StateType" base="xs:integer" variety="Atomic">
+		<enumeration>0</enumeration>
+		<enumeration>1</enumeration>
+	</valueType>
+	<objectType name="CalculationDataType">
+		<property name="calcDays">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="3" fractionDigits="1"/>
+		</property>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="kfReg" type="d3p1:KfRegType"/>
+		<property name="position">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="100"/>
+		</property>
+		<property name="category">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic">
+				<pattern>\d{1,2}</pattern>
+			</typeDef>
+		</property>
+		<property name="fssPayment" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="24" fractionDigits="2"/>
+		</property>
+		<property name="emplNote" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="300"/>
+		</property>
+	</objectType>
+	<objectType name="CommonDocInfoType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="batchNo" type="d3p1:BatchNoType"/>
+		<property name="typeInfo" type="xs:integer"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="recalcReasonCode" type="d3p1:RecalcReasonType" lowerBound="0"/>
+		<property name="docType" type="xs:integer"/>
+		<property name="respNo" type="xs:integer" lowerBound="0"/>
+		<property name="respDate" type="xs:date" lowerBound="0"/>
+	</objectType>
+	<objectType name="CovidWorkerDoc">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="commonDocInfo" type="d3p1:CommonDocInfoType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="insuredData" type="d3p1:InsuredDataType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="employerData" type="d3p1:EmployerDataType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="calculationData" type="d3p1:CalculationDataType"/>
+	</objectType>
+	<objectType name="EmployerDataType">
+		<property name="employer">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="255"/>
+		</property>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="emplRegnum" type="d3p1:RegnumType"/>
+		<property name="emplParentNum" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="10"/>
+		</property>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="emplInn" type="d3p1:InnType"/>
+	</objectType>
+	<objectType name="ErrorListType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="error" type="d3p1:ErrorType" upperBound="-1"/>
+	</objectType>
+	<objectType name="ErrorType">
+		<property name="errorCode">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="8"/>
+		</property>
+		<property name="errorDescription">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="500"/>
+		</property>
+	</objectType>
+	<objectType name="FailedBatchNoDetailType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="batchNo" type="d3p1:BatchNoType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="errorList" type="d3p1:ErrorListType"/>
+	</objectType>
+	<objectType name="FailedListType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="failedBatchNoDetail" type="d3p1:FailedBatchNoDetailType" upperBound="-1"/>
+	</objectType>
+	<objectType name="InsuredDataType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="snils" type="d3p1:SnilsType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="firstName" type="d3p1:FirstNameType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="lastName" type="d3p1:LastNameType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="middleName" type="d3p1:MiddleNameType" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="paymentType" type="d3p1:PaymentTypeType"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="accountBic" type="d3p1:BicType" lowerBound="0"/>
+		<property name="accountName" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="80"/>
+		</property>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="account" type="d3p1:AccountType" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="paycardNum" type="d3p1:PaycardNumType" lowerBound="0"/>
+		<property name="birthday" type="xs:date"/>
+	</objectType>
+	<objectType name="ProtocolType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="failedList" type="d3p1:FailedListType" lowerBound="0"/>
+	</objectType>
+	<objectType name="SubmitCovidWorkerRegistrRequestListType">
+		<property xmlns:d3p1="http://www.fss.ru/integration/types/pvso/quarantine/covidworkerregistr/v01" name="row" type="d3p1:CovidWorkerDoc" upperBound="-1"/>
+	</objectType>
+</package>

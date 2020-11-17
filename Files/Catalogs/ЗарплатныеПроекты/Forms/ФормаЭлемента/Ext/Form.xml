@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">COVID_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="120">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="121"/>
+			<ChildItems>
+				<InputField name="Организация" id="5">
+					<EditMode>EnterOnInput</EditMode>
+					<Width>30</Width>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="64"/>
+				</InputField>
+				<InputField name="Банк" id="56">
+					<Width>30</Width>
+					<ContextMenu name="БанкКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="БанкExtendedTooltip" id="65"/>
+				</InputField>
+				<InputField name="Наименование" id="3">
+					<DataPath>1/-3</DataPath>
+					<SkipOnInput>true</SkipOnInput>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Название проекта</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="84"/>
+				</InputField>
+				<UsualGroup name="ИспользоватьЭДО" id="125">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать ЭДО</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ИспользоватьЭДОРасширеннаяПодсказка" id="126"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьЭлектронныйДокументооборотСБанком" id="50">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать обмен электронными документами</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьЭлектронныйДокументооборотСБанкомКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ИспользоватьЭлектронныйДокументооборотСБанкомExtendedTooltip" id="68">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Height>1</Height>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Позволяет выгрузить зарплатные реестры в файл для отправки в банк и загрузить файлы подтверждения из банка.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+						<LabelDecoration name="НастройкаЭДО" id="117">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подключить DirectBank</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="НастройкаЭДОКонтекстноеМеню" id="118"/>
+							<ExtendedTooltip name="НастройкаЭДОРасширеннаяПодсказка" id="119"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ЭлектронныйДокументооборотСБанком" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Электронный документооборот с банком</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>DontUse</ThroughAlign>
+					<ExtendedTooltip name="ЭлектронныйДокументооборотСБанкомРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<UsualGroup name="ФайлОбмена" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Файл обмена</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ФайлОбменаРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<InputField name="ФорматФайла" id="21">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Формат</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ФорматФайлаКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="ФорматФайлаРасширеннаяПодсказка" id="71"/>
+								</InputField>
+								<InputField name="КодировкаФайла" id="109">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Кодировка</v8:content>
+										</v8:item>
+									</Title>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="КодировкаФайлаКонтекстноеМеню" id="110"/>
+									<ExtendedTooltip name="КодировкаФайлаРасширеннаяПодсказка" id="111"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Договор" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Договор</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="79"/>
+							<ChildItems>
+								<UsualGroup name="СведенияОДоговоре" id="48">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сведения о договоре</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СведенияОДоговореРасширеннаяПодсказка" id="80"/>
+									<ChildItems>
+										<InputField name="НомерДоговора" id="13">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номер</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>При использовании типового обмена длина номера договора поддерживается до 8 символов.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<Width>40</Width>
+											<ContextMenu name="НомерДоговораКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="НомерДоговораExtendedTooltip" id="81"/>
+										</InputField>
+										<InputField name="Валюта" id="28">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Валюта</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<OpenButton>false</OpenButton>
+											<ContextMenu name="ВалютаКонтекстноеМеню" id="29"/>
+											<ExtendedTooltip name="ВалютаExtendedTooltip" id="83"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ДатаДоговора" id="31">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата</v8:content>
+										</v8:item>
+									</Title>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ДатаДоговораКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ДатаДоговораExtendedTooltip" id="82"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="РеквизитыБанка" id="47">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реквизиты банка</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="РеквизитыБанкаРасширеннаяПодсказка" id="73"/>
+							<ChildItems>
+								<UsualGroup name="ОтделениеФилиалОтделения" id="58">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отделение, филиал отделения</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ОтделениеФилиалОтделенияРасширеннаяПодсказка" id="75"/>
+									<ChildItems>
+										<InputField name="ОтделениеБанка" id="16">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Отделение</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ОтделениеБанкаКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ОтделениеБанкаExtendedTooltip" id="76"/>
+										</InputField>
+										<InputField name="ФилиалОтделенияБанка" id="18">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Филиал</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ФилиалОтделенияБанкаКонтекстноеМеню" id="19"/>
+											<ExtendedTooltip name="ФилиалОтделенияБанкаExtendedTooltip" id="77"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="РасчетныйСчет" id="7">
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Владелец</xr:Name>
+											<xr:DataPath xsi:type="xs:string">1/0:0352dfd4-717f-4a09-8007-2691aef85329</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="РасчетныйСчетКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="РасчетныйСчетExtendedTooltip" id="78"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="БанковскиеКарты" id="27">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Банковские карты</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="БанковскиеКартыРасширеннаяПодсказка" id="85"/>
+							<ChildItems>
+								<InputField name="МаксимальнаяДлинаЭмбоссированногоТекста" id="122">
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<MinValue xsi:type="xs:decimal">19</MinValue>
+									<MaxValue xsi:type="xs:decimal">26</MaxValue>
+									<ContextMenu name="МаксимальнаяДлинаЭмбоссированногоТекстаКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="МаксимальнаяДлинаЭмбоссированногоТекстаРасширеннаяПодсказка" id="124">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Ограничение на длину имени и фамилии латиницей, 
+которые наносятся на пластиковую карту</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</InputField>
+								<Table name="СистемыРасчетовПоБанковскимКартам" id="35">
+									<TitleLocation>Auto</TitleLocation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<Width>32</Width>
+									<HeightInTableRows>3</HeightInTableRows>
+									<Header>false</Header>
+									<HorizontalStretch>false</HorizontalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Системы расчетов по банковским картам</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="СистемыРасчетовПоБанковскимКартамКонтекстноеМеню" id="36"/>
+									<AutoCommandBar name="СистемыРасчетовПоБанковскимКартамКоманднаяПанель" id="37"/>
+									<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамExtendedTooltip" id="86">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Платежные системы, карты которых можно выпустить в рамках зарплатного проекта (VISA, MasterCard, МИР и т.д.).
+Коды системы расчетов определяются банком.
+Платежная система выпускаемой карты указывается при оформлении заявки на открытие лицевых счетов.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+									<SearchStringAddition name="СистемыРасчетовПоБанковскимКартамSearchString" id="98">
+										<AdditionSource>
+											<Item>СистемыРасчетовПоБанковскимКартам</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СистемыРасчетовПоБанковскимКартамSearchStringContextMenu" id="99"/>
+										<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамSearchStringExtendedTooltip" id="100"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СистемыРасчетовПоБанковскимКартамViewStatus" id="101">
+										<AdditionSource>
+											<Item>СистемыРасчетовПоБанковскимКартам</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СистемыРасчетовПоБанковскимКартамViewStatusContextMenu" id="102"/>
+										<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамViewStatusExtendedTooltip" id="103"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СистемыРасчетовПоБанковскимКартамSearchControl" id="104">
+										<AdditionSource>
+											<Item>СистемыРасчетовПоБанковскимКартам</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СистемыРасчетовПоБанковскимКартамSearchControlContextMenu" id="105"/>
+										<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамSearchControlExtendedTooltip" id="106"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартам" id="40">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартамКонтекстноеМеню" id="41"/>
+											<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартамExtendedTooltip" id="88"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные данные</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="93"/>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.9">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="120">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="121"/>
+				<ChildItems>
+					<InputField name="Организация" id="5">
+						<EditMode>EnterOnInput</EditMode>
+						<Width>30</Width>
+						<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="64"/>
+					</InputField>
+					<InputField name="Банк" id="56">
+						<Width>30</Width>
+						<ContextMenu name="БанкКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="БанкExtendedTooltip" id="65"/>
+					</InputField>
+					<InputField name="Наименование" id="3">
+						<DataPath>1/-3</DataPath>
+						<SkipOnInput>true</SkipOnInput>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Название проекта</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="84"/>
+					</InputField>
+					<UsualGroup name="ИспользоватьЭДО" id="125">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использовать ЭДО</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ИспользоватьЭДОРасширеннаяПодсказка" id="126"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьЭлектронныйДокументооборотСБанком" id="50">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать обмен электронными документами</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьЭлектронныйДокументооборотСБанкомКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="ИспользоватьЭлектронныйДокументооборотСБанкомExtendedTooltip" id="68">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>1</Height>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Позволяет выгрузить зарплатные реестры в файл для отправки в банк и загрузить файлы подтверждения из банка.</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+							<LabelDecoration name="НастройкаЭДО" id="117">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Подключить DirectBank</v8:content>
+									</v8:item>
+								</Title>
+								<Hyperlink>true</Hyperlink>
+								<ContextMenu name="НастройкаЭДОКонтекстноеМеню" id="118"/>
+								<ExtendedTooltip name="НастройкаЭДОРасширеннаяПодсказка" id="119"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ЭлектронныйДокументооборотСБанком" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Электронный документооборот с банком</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ThroughAlign>DontUse</ThroughAlign>
+						<ExtendedTooltip name="ЭлектронныйДокументооборотСБанкомРасширеннаяПодсказка" id="72"/>
+						<ChildItems>
+							<UsualGroup name="ФайлОбмена" id="107">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Файл обмена</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ФайлОбменаРасширеннаяПодсказка" id="108"/>
+								<ChildItems>
+									<InputField name="ФорматФайла" id="21">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Формат</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ФорматФайлаКонтекстноеМеню" id="22"/>
+										<ExtendedTooltip name="ФорматФайлаРасширеннаяПодсказка" id="71"/>
+									</InputField>
+									<InputField name="КодировкаФайла" id="109">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Кодировка</v8:content>
+											</v8:item>
+										</Title>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="КодировкаФайлаКонтекстноеМеню" id="110"/>
+										<ExtendedTooltip name="КодировкаФайлаРасширеннаяПодсказка" id="111"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="Договор" id="30">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Договор</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="79"/>
+								<ChildItems>
+									<UsualGroup name="СведенияОДоговоре" id="48">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сведения о договоре</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СведенияОДоговореРасширеннаяПодсказка" id="80"/>
+										<ChildItems>
+											<InputField name="НомерДоговора" id="13">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Номер</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>При использовании типового обмена длина номера договора поддерживается до 8 символов.</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ToolTipRepresentation>Button</ToolTipRepresentation>
+												<Width>40</Width>
+												<ContextMenu name="НомерДоговораКонтекстноеМеню" id="14"/>
+												<ExtendedTooltip name="НомерДоговораExtendedTooltip" id="81"/>
+											</InputField>
+											<InputField name="Валюта" id="28">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Валюта</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<OpenButton>false</OpenButton>
+												<ContextMenu name="ВалютаКонтекстноеМеню" id="29"/>
+												<ExtendedTooltip name="ВалютаExtendedTooltip" id="83"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
+									<InputField name="ДатаДоговора" id="31">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дата</v8:content>
+											</v8:item>
+										</Title>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ДатаДоговораКонтекстноеМеню" id="32"/>
+										<ExtendedTooltip name="ДатаДоговораExtendedTooltip" id="82"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="РеквизитыБанка" id="47">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Реквизиты банка</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="РеквизитыБанкаРасширеннаяПодсказка" id="73"/>
+								<ChildItems>
+									<UsualGroup name="ОтделениеФилиалОтделения" id="58">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Отделение, филиал отделения</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ОтделениеФилиалОтделенияРасширеннаяПодсказка" id="75"/>
+										<ChildItems>
+											<InputField name="ОтделениеБанка" id="16">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отделение</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="ОтделениеБанкаКонтекстноеМеню" id="17"/>
+												<ExtendedTooltip name="ОтделениеБанкаExtendedTooltip" id="76"/>
+											</InputField>
+											<InputField name="ФилиалОтделенияБанка" id="18">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Филиал</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="ФилиалОтделенияБанкаКонтекстноеМеню" id="19"/>
+												<ExtendedTooltip name="ФилиалОтделенияБанкаExtendedTooltip" id="77"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
+									<InputField name="РасчетныйСчет" id="7">
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<ChoiceParameterLinks>
+											<xr:Link>
+												<xr:Name>Отбор.Владелец</xr:Name>
+												<xr:DataPath xsi:type="xs:string">1/0:0352dfd4-717f-4a09-8007-2691aef85329</xr:DataPath>
+												<xr:ValueChange>Clear</xr:ValueChange>
+											</xr:Link>
+										</ChoiceParameterLinks>
+										<ContextMenu name="РасчетныйСчетКонтекстноеМеню" id="8"/>
+										<ExtendedTooltip name="РасчетныйСчетExtendedTooltip" id="78"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="БанковскиеКарты" id="27">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Банковские карты</v8:content>
+									</v8:item>
+								</Title>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="БанковскиеКартыРасширеннаяПодсказка" id="85"/>
+								<ChildItems>
+									<InputField name="МаксимальнаяДлинаЭмбоссированногоТекста" id="122">
+										<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+										<MinValue xsi:type="xs:decimal">19</MinValue>
+										<MaxValue xsi:type="xs:decimal">26</MaxValue>
+										<ContextMenu name="МаксимальнаяДлинаЭмбоссированногоТекстаКонтекстноеМеню" id="123"/>
+										<ExtendedTooltip name="МаксимальнаяДлинаЭмбоссированногоТекстаРасширеннаяПодсказка" id="124">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Ограничение на длину имени и фамилии латиницей, 
+которые наносятся на пластиковую карту</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+									</InputField>
+									<Table name="СистемыРасчетовПоБанковскимКартам" id="35">
+										<TitleLocation>Auto</TitleLocation>
+										<CommandBarLocation>None</CommandBarLocation>
+										<Width>32</Width>
+										<HeightInTableRows>3</HeightInTableRows>
+										<Header>false</Header>
+										<HorizontalStretch>false</HorizontalStretch>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Системы расчетов по банковским картам</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+										<SearchStringLocation>None</SearchStringLocation>
+										<ViewStatusLocation>None</ViewStatusLocation>
+										<SearchControlLocation>None</SearchControlLocation>
+										<RowFilter xsi:nil="true"/>
+										<ContextMenu name="СистемыРасчетовПоБанковскимКартамКонтекстноеМеню" id="36"/>
+										<AutoCommandBar name="СистемыРасчетовПоБанковскимКартамКоманднаяПанель" id="37"/>
+										<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамExtendedTooltip" id="86">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Платежные системы, карты которых можно выпустить в рамках зарплатного проекта (VISA, MasterCard, МИР и т.д.).
+Коды системы расчетов определяются банком.
+Платежная система выпускаемой карты указывается при оформлении заявки на открытие лицевых счетов.</v8:content>
+												</v8:item>
+											</Title>
+										</ExtendedTooltip>
+										<SearchStringAddition name="СистемыРасчетовПоБанковскимКартамSearchString" id="98">
+											<AdditionSource>
+												<Item>СистемыРасчетовПоБанковскимКартам</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="СистемыРасчетовПоБанковскимКартамSearchStringContextMenu" id="99"/>
+											<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамSearchStringExtendedTooltip" id="100"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="СистемыРасчетовПоБанковскимКартамViewStatus" id="101">
+											<AdditionSource>
+												<Item>СистемыРасчетовПоБанковскимКартам</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="СистемыРасчетовПоБанковскимКартамViewStatusContextMenu" id="102"/>
+											<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамViewStatusExtendedTooltip" id="103"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="СистемыРасчетовПоБанковскимКартамSearchControl" id="104">
+											<AdditionSource>
+												<Item>СистемыРасчетовПоБанковскимКартам</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="СистемыРасчетовПоБанковскимКартамSearchControlContextMenu" id="105"/>
+											<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамSearchControlExtendedTooltip" id="106"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<InputField name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартам" id="40">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартамКонтекстноеМеню" id="41"/>
+												<ExtendedTooltip name="СистемыРасчетовПоБанковскимКартамСистемаРасчетовПоБанковскимКартамExtendedTooltip" id="88"/>
+											</InputField>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="11">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные данные</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="93"/>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

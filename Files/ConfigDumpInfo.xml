@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+	<ConfigVersions>
+		<Metadata name="Catalog.COVID_КатегорииМедицинскихРаботников" id="619e30d2-803a-45ce-a99b-1dd0032fc830" configVersion="08ef786b625239177f933f20acf88b491f972a53">
+			<Metadata name="Catalog.COVID_КатегорииМедицинскихРаботников.Attribute.COVID_СуммаВыплаты" id="1783e63f-5144-48d6-96c2-ee14c6ddc500"/>
+		</Metadata>
+		<Metadata name="Catalog.COVID_КатегорииМедицинскихРаботников.Template.COVID_КатегорииМедицинскихРаботников" id="3c7c335f-34cf-42b1-936c-895491b3bc1e" configVersion="ffeab053dcd01f6f2f028ebb74e26b32c332e603"/>
+		<Metadata name="Catalog.COVID_КатегорииМедицинскихРаботников.Template.COVID_КатегорииМедицинскихРаботников.Template" id="3c7c335f-34cf-42b1-936c-895491b3bc1e.0" configVersion="0d6ae62c0b48c1a1679df7b5471e6643fe13906e"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени" id="13322be8-fe8b-4c61-8465-7212b664a9fb" configVersion="6853f0acd53fdad7f18ef55252dd1640c99a408a"/>
+		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени.Predefined" id="13322be8-fe8b-4c61-8465-7212b664a9fb.1c" configVersion="ad8ada7ae51ec1ebc521ed450c515bca6e542ed2"/>
+		<Metadata name="Catalog.ГрафикиРаботыСотрудников" id="7a80a7d8-fc26-42df-92c6-ca3636e94705" configVersion="d196b2561ef71d392b9f205ead0b5362251f2ba9">
+			<Metadata name="Catalog.ГрафикиРаботыСотрудников.Attribute.COVID_НормаЧасовНаСмену" id="b5f11bd9-433a-47f3-b15a-aa42fcb41e63"/>
+		</Metadata>
+		<Metadata name="Catalog.ГрафикиРаботыСотрудников.Form.ФормаГрафика" id="759172cc-4747-451f-a895-f3777194e7a4" configVersion="0219931164ba0c59a06cad50167a2ebb33216bd4"/>
+		<Metadata name="Catalog.ГрафикиРаботыСотрудников.Form.ФормаГрафика.Form" id="759172cc-4747-451f-a895-f3777194e7a4.0" configVersion="3daf334e3a2870c9d2bcd3c8080bc5b90804de87"/>
+		<Metadata name="Catalog.Должности" id="c83fea04-4ccd-4e52-b0f7-f65f6c729254" configVersion="dba8cebbec07be1bc67eab2e8211932c1f36547f">
+			<Metadata name="Catalog.Должности.Attribute.COVID_КатегорияМедицинскихРаботников" id="ffb98e28-7f4a-43f4-802b-1335b322b042"/>
+		</Metadata>
+		<Metadata name="Catalog.Должности.Form.ФормаЭлемента" id="3fdddcc7-c50c-4b79-8de0-e271e697bb07" configVersion="12fb824c5f715d4ba42e49f4a49f1096b8d09d61"/>
+		<Metadata name="Catalog.Должности.Form.ФормаЭлемента.Form" id="3fdddcc7-c50c-4b79-8de0-e271e697bb07.0" configVersion="6af451ff4297d44024f07eea58caebaef65d1169"/>
+		<Metadata name="Catalog.ЗарплатныеПроекты" id="7c9bd23c-b879-4a06-a768-cc75a41c2afa" configVersion="18d2bc4efb0d19279d1f1ddf7322f49dd191198d">
+			<Metadata name="Catalog.ЗарплатныеПроекты.Attribute.COVID_ЗарплатнаяКартаМИР" id="85cc8418-0817-4274-8d3a-81499651d297"/>
+		</Metadata>
+		<Metadata name="Catalog.ЗарплатныеПроекты.Form.ФормаЭлемента" id="eb6c3151-4743-4a24-b858-979417fdfab7" configVersion="1528c9d72f420d0a7e5de78c1fed1b3ff22d790e"/>
+		<Metadata name="Catalog.ЗарплатныеПроекты.Form.ФормаЭлемента.Form" id="eb6c3151-4743-4a24-b858-979417fdfab7.0" configVersion="ee0a884309aabed3d3f78c5fccc5f9cc09a61997"/>
+		<Metadata name="Catalog.Организации" id="ba6598d4-cbe2-4d95-8f4b-97b9dd9ec904" configVersion="54671428eb3e3882ae12a14ba492377ffa051eb0">
+			<Metadata name="Catalog.Организации.Attribute.COVID_РегистрационныйНомер" id="34051a97-3880-4bab-b617-c22687d4bb70"/>
+		</Metadata>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="2fcd8148-f60c-4e66-8cd6-3647f924bdc9" configVersion="7825e2ce3bf0b7e5bdce8895eabcafd7419e29e9"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="2fcd8148-f60c-4e66-8cd6-3647f924bdc9.0" configVersion="bad8e8aae81fd716cb38b1d7a6f70be505ec2957"/>
+		<Metadata name="Catalog.ПодразделенияОрганизаций" id="b0906f01-0291-4030-84e6-f64a17912ff0" configVersion="97803df85d746310abc66216b8e4d3ff3319a3ef"/>
+		<Metadata name="Catalog.Сотрудники" id="60f0d6b6-ed4a-4c7c-a4e1-c952298056fa" configVersion="6c0f19f3111940da051810690dcbefc58c63f522"/>
+		<Metadata name="Catalog.ШтатноеРасписание" id="a6d6a0c6-e008-40be-a28c-d2af5bc54d54" configVersion="c6264a2031fa6f813cc843d61900534046140f51">
+			<Metadata name="Catalog.ШтатноеРасписание.Attribute.COVID_КатегорияМедицинскихРаботников" id="e6109dd5-078f-4e11-9dc1-ff9fb6e55ea7"/>
+		</Metadata>
+		<Metadata name="Catalog.ШтатноеРасписание.Form.ФормаЭлемента" id="dbcce9c4-b6c9-4707-9241-e04933546e0c" configVersion="d8cb06873d45dc77e796a75a96683cd23639fda3"/>
+		<Metadata name="Catalog.ШтатноеРасписание.Form.ФормаЭлемента.Form" id="dbcce9c4-b6c9-4707-9241-e04933546e0c.0" configVersion="9ecc6529dffd5e91c10c88105d27bf9860d260ab"/>
+		<Metadata name="CommonPicture.ОперацияВыполненаУспешно" id="19677886-f063-4ecc-9b23-089da30274bb" configVersion="586cde9db47bb0b5be73acf786d80968ab9a4de2"/>
+		<Metadata name="CommonPicture.ПротоколСОшибкой" id="9351f0b5-e603-41f8-b6ab-3d1b20424b8e" configVersion="69ea818fac0e9f81e1401f427bfa3a0a4c49f417"/>
+		<Metadata name="Configuration.ВыгрузкаВыплатЗаЛечениеПациентовСCOVID" id="ac4fd161-f32d-4319-a1fa-e53fb1b6dc43" configVersion="d6e56f8a63b3aa7f27e24e1de6562d9bd8fffa99"/>
+		<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений" id="747a577b-1fe0-4e9b-9def-3c9520f65b7c" configVersion="34db20d2ae42c70ed06a19ac96ddb996f4f67fa5">
+			<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений.Attribute.МесяцНачисления" id="08e4fce1-0032-4089-89a8-59506d228c1d"/>
+			<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений.Attribute.Организация" id="7a36a95b-cd9b-4e82-936a-8c6db638acc8"/>
+			<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений.Attribute.Подразделение" id="dfc447c2-76bc-4a22-b2e3-3defc38aa48c"/>
+		</Metadata>
+		<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений.Form.Форма" id="baefec63-761b-43ca-b386-ea1fab8fcf90" configVersion="2b4adf4f18e254cc67c5e8dec43c659b621d4a23"/>
+		<Metadata name="DataProcessor.COVID_ВыгрузкаНачислений.Form.Форма.Form" id="baefec63-761b-43ca-b386-ea1fab8fcf90.0" configVersion="49257ffb86ffd107e7586ba0ec808374c603890f"/>
+		<Metadata name="Enum.ВидыФормОтчетовОРасходахИЧисленностиРаботниковГосударственныхОрганов" id="2e849e38-cafb-481f-859e-b7ad98bd0e43" configVersion="47f15b7141a97a5b603e8e76066edfd28aa683ed">
+			<Metadata name="Enum.ВидыФормОтчетовОРасходахИЧисленностиРаботниковГосударственныхОрганов.EnumValue.Форма14МО" id="2cf42e92-2757-44c6-9ad7-13ba2039de0f"/>
+			<Metadata name="Enum.ВидыФормОтчетовОРасходахИЧисленностиРаботниковГосударственныхОрганов.EnumValue.Форма14" id="c5fbe028-0814-46bf-98c9-1bc3a135a76f"/>
+			<Metadata name="Enum.ВидыФормОтчетовОРасходахИЧисленностиРаботниковГосударственныхОрганов.EnumValue.Форма3ОБ" id="d23b8197-4f1b-4e48-a7d8-1116d1ba2001"/>
+		</Metadata>
+		<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени" id="aede0153-2d60-4367-82d4-91129c252dd0" configVersion="d24479432d826e73219c290e4dd48d7fbca2e961">
+			<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени.EnumValue.ВыбираемаяСотрудникомЛьгота" id="0092d73c-51a7-4ed7-b257-0c49053ac5fe"/>
+			<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени.EnumValue.Льгота" id="d91f6905-7120-4571-8bc5-665def54a884"/>
+		</Metadata>
+		<Metadata name="Enum.ЮридическоеФизическоеЛицо" id="860d5fd3-83ec-40ab-9d62-fb7177d250b8" configVersion="003e48589399d93defedbf4e5f8fcb805852ab3c">
+			<Metadata name="Enum.ЮридическоеФизическоеЛицо.EnumValue.ФизическоеЛицо" id="1fbca391-394b-419b-8c54-b1f9a38e7dd1"/>
+			<Metadata name="Enum.ЮридическоеФизическоеЛицо.EnumValue.ЮридическоеЛицо" id="e84c9a2e-c673-45b9-b3e0-5b9a98bebfaa"/>
+		</Metadata>
+		<Metadata name="FunctionalOption.ИспользоватьШтатноеРасписание" id="66b90b6f-0754-48aa-88cd-15f996c6de5c" configVersion="9fff7fd5dfc16175ad439b682d2d7863290340d6"/>
+		<Metadata name="FunctionalOption.НеИспользоватьШтатноеРасписание" id="36d6ef6d-97ee-40a4-bc39-2f91e5fd95a2" configVersion="3809d02700cdd5a25553d52b72ea90f8aba97266"/>
+		<Metadata name="InformationRegister.НастройкиШтатногоРасписания" id="914b8f76-c92a-4567-b9a7-e2d77e0825fc" configVersion="5ecf6b0a16367bd5ed583a87edaf75a26f17a09a">
+			<Metadata name="InformationRegister.НастройкиШтатногоРасписания.Resource.НеИспользоватьШтатноеРасписание" id="6731c6e5-275c-402a-9fd4-f4a26463a71d"/>
+			<Metadata name="InformationRegister.НастройкиШтатногоРасписания.Resource.ИспользоватьШтатноеРасписание" id="d2c78ed2-5362-4fc7-80d5-733f1b49cd09"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="da8d0828-1838-483f-bd6c-05901d64bc3d" configVersion="5a8ee6666d3fd529a2abcd31fc4474d68964c037"/>
+		<Metadata name="Role.COVID_ОсновнаяРоль" id="44bafc63-4b81-43c6-82a5-d2c85a75d938" configVersion="b47f6aef1772966870cc3a7e0061fc292dfb6924"/>
+		<Metadata name="StyleItem.ПоясняющийТекст" id="86100d22-a3b7-4819-ac9d-76e483b3248d" configVersion="4e549144bfa560b1be26933fc349d241c448b3be"/>
+		<Metadata name="StyleItem.ТекстЗапрещеннойЯчейкиЦвет" id="dacc7c17-0fbd-47cb-a0b5-8cb57da90b59" configVersion="389a65b566a333851b03f6e6286b7deb799ddcdf"/>
+		<Metadata name="Subsystem.Зарплата" id="22b4f90b-c15d-48ec-b0ae-bed32ddeb75b" configVersion="ef5883836f60ff50fd952d16770e341826f6e082"/>
+		<Metadata name="XDTOPackage.COVID" id="bcfbba61-b118-47c3-98bb-1f40162e6cef" configVersion="3fcfbbb7add94c6689a83131d4d428cc089c3e7e"/>
+		<Metadata name="XDTOPackage.COVID.Package" id="bcfbba61-b118-47c3-98bb-1f40162e6cef.0" configVersion="208372e30931aa9e915319002bef9f0c273ea677"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -370,7 +370,6 @@
 					<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="819"/>
 					<ChildItems>
 						<InputField name="Наименование" id="3">
-							<DataPath>1/-3</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>75</MaxWidth>
@@ -2446,7 +2445,6 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ЛьготыЛьгота" id="626">
-											<DataPath>30/1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ChoiceParameters>
 												<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -2561,7 +2559,6 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ИндивидуальныеЛьготыЛьгота" id="673">
-											<DataPath>40/1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ChoiceParameters>
 												<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -3225,7 +3222,6 @@
 						<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="819"/>
 						<ChildItems>
 							<InputField name="Наименование" id="3">
-								<DataPath>1/-3</DataPath>
 								<EditMode>EnterOnInput</EditMode>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<MaxWidth>75</MaxWidth>
@@ -5301,7 +5297,6 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ЛьготыЛьгота" id="626">
-												<DataPath>30/1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ChoiceParameters>
 													<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -5416,7 +5411,6 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ИндивидуальныеЛьготыЛьгота" id="673">
-												<DataPath>40/1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ChoiceParameters>
 													<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">

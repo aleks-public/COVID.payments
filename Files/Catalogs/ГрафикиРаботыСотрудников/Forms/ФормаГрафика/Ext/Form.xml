@@ -7,7 +7,6 @@
 	</Events>
 	<ChildItems>
 		<InputField name="Наименование" id="1">
-			<DataPath>1/-3</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<Width>30</Width>
 			<HorizontalStretch>false</HorizontalStretch>
@@ -220,7 +219,6 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="ПредставлениеДанныхСменногоГрафикаМесяцПредставление" id="434">
-									<DataPath>107/1</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -245,7 +243,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаИтогоРасширеннаяПодсказка" id="686"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаИтогДниПредставление" id="690">
-											<DataPath>107/66</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
@@ -254,7 +251,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаИтогДниПредставлениеРасширеннаяПодсказка" id="692"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаИтогЧасыПредставление" id="687">
-											<DataPath>107/96</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
 											<ShowInFooter>false</ShowInFooter>
@@ -274,7 +270,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа1РасширеннаяПодсказка" id="531"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена1" id="592">
-											<DataPath>107/33</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -286,7 +281,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена1РасширеннаяПодсказка" id="594"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень1" id="437">
-											<DataPath>107/2</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -313,7 +307,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа2РасширеннаяПодсказка" id="533"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена2" id="595">
-											<DataPath>107/34</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -325,7 +318,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена2РасширеннаяПодсказка" id="597"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень2" id="440">
-											<DataPath>107/3</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -352,7 +344,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа3РасширеннаяПодсказка" id="535"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена3" id="598">
-											<DataPath>107/67</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -364,7 +355,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена3РасширеннаяПодсказка" id="600"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень3" id="443">
-											<DataPath>107/4</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -391,7 +381,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа4РасширеннаяПодсказка" id="537"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена4" id="601">
-											<DataPath>107/68</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -403,7 +392,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена4РасширеннаяПодсказка" id="603"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень4" id="446">
-											<DataPath>107/5</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -430,7 +418,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа5РасширеннаяПодсказка" id="539"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена5" id="604">
-											<DataPath>107/69</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -442,7 +429,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена5РасширеннаяПодсказка" id="606"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень5" id="449">
-											<DataPath>107/6</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -469,7 +455,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа6РасширеннаяПодсказка" id="541"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена6" id="607">
-											<DataPath>107/70</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -481,7 +466,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена6РасширеннаяПодсказка" id="609"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень6" id="452">
-											<DataPath>107/7</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -508,7 +492,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа7РасширеннаяПодсказка" id="543"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена7" id="610">
-											<DataPath>107/71</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -520,7 +503,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена7РасширеннаяПодсказка" id="612"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень7" id="455">
-											<DataPath>107/8</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -547,7 +529,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа8РасширеннаяПодсказка" id="545"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена8" id="613">
-											<DataPath>107/72</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -559,7 +540,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена8РасширеннаяПодсказка" id="615"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень8" id="458">
-											<DataPath>107/9</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -586,7 +566,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа9РасширеннаяПодсказка" id="547"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена9" id="616">
-											<DataPath>107/73</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -598,7 +577,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена9РасширеннаяПодсказка" id="618"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень9" id="461">
-											<DataPath>107/10</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -625,7 +603,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа10РасширеннаяПодсказка" id="549"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена10" id="619">
-											<DataPath>107/74</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -637,7 +614,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена10РасширеннаяПодсказка" id="621"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень10" id="464">
-											<DataPath>107/11</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -664,7 +640,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа11РасширеннаяПодсказка" id="551"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена11" id="622">
-											<DataPath>107/75</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -676,7 +651,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена11РасширеннаяПодсказка" id="624"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень11" id="467">
-											<DataPath>107/12</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -703,7 +677,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа12РасширеннаяПодсказка" id="553"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена12" id="625">
-											<DataPath>107/76</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -715,7 +688,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена12РасширеннаяПодсказка" id="627"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень12" id="470">
-											<DataPath>107/13</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -742,7 +714,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа13РасширеннаяПодсказка" id="555"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена13" id="628">
-											<DataPath>107/77</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -754,7 +725,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена13РасширеннаяПодсказка" id="630"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень13" id="473">
-											<DataPath>107/14</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -781,7 +751,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа14РасширеннаяПодсказка" id="557"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена14" id="631">
-											<DataPath>107/78</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -793,7 +762,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена14РасширеннаяПодсказка" id="633"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень14" id="476">
-											<DataPath>107/15</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -820,7 +788,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа15РасширеннаяПодсказка" id="559"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена15" id="634">
-											<DataPath>107/79</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -832,7 +799,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена15РасширеннаяПодсказка" id="636"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень15" id="479">
-											<DataPath>107/16</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -859,7 +825,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа16РасширеннаяПодсказка" id="561"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена16" id="637">
-											<DataPath>107/80</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -871,7 +836,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена16РасширеннаяПодсказка" id="639"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень16" id="482">
-											<DataPath>107/17</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -898,7 +862,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа17РасширеннаяПодсказка" id="563"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена17" id="640">
-											<DataPath>107/81</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -910,7 +873,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена17РасширеннаяПодсказка" id="642"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень17" id="485">
-											<DataPath>107/18</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -937,7 +899,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа18РасширеннаяПодсказка" id="565"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена18" id="643">
-											<DataPath>107/82</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -949,7 +910,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена18РасширеннаяПодсказка" id="645"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень18" id="488">
-											<DataPath>107/19</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -976,7 +936,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа19РасширеннаяПодсказка" id="567"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена19" id="646">
-											<DataPath>107/83</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -988,7 +947,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена19РасширеннаяПодсказка" id="648"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень19" id="491">
-											<DataPath>107/20</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1015,7 +973,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа20РасширеннаяПодсказка" id="569"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена20" id="649">
-											<DataPath>107/84</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1027,7 +984,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена20РасширеннаяПодсказка" id="651"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень20" id="494">
-											<DataPath>107/21</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1054,7 +1010,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа21РасширеннаяПодсказка" id="571"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена21" id="652">
-											<DataPath>107/85</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1066,7 +1021,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена21РасширеннаяПодсказка" id="654"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень21" id="497">
-											<DataPath>107/22</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1093,7 +1047,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа22РасширеннаяПодсказка" id="573"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена22" id="655">
-											<DataPath>107/86</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1105,7 +1058,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена22РасширеннаяПодсказка" id="657"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень22" id="500">
-											<DataPath>107/23</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1132,7 +1084,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа23РасширеннаяПодсказка" id="575"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена23" id="658">
-											<DataPath>107/87</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1144,7 +1095,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена23РасширеннаяПодсказка" id="660"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень23" id="503">
-											<DataPath>107/24</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1171,7 +1121,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа24РасширеннаяПодсказка" id="577"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена24" id="661">
-											<DataPath>107/88</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1183,7 +1132,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена24РасширеннаяПодсказка" id="663"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень24" id="506">
-											<DataPath>107/25</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1210,7 +1158,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа25РасширеннаяПодсказка" id="579"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена25" id="664">
-											<DataPath>107/89</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1222,7 +1169,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена25РасширеннаяПодсказка" id="666"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень25" id="509">
-											<DataPath>107/26</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1249,7 +1195,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа26РасширеннаяПодсказка" id="581"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена26" id="667">
-											<DataPath>107/90</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1261,7 +1206,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена26РасширеннаяПодсказка" id="669"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень26" id="512">
-											<DataPath>107/27</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1288,7 +1232,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа27РасширеннаяПодсказка" id="583"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена27" id="670">
-											<DataPath>107/91</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1300,7 +1243,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена27РасширеннаяПодсказка" id="672"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень27" id="515">
-											<DataPath>107/28</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1327,7 +1269,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа28РасширеннаяПодсказка" id="585"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена28" id="673">
-											<DataPath>107/92</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1339,7 +1280,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена28РасширеннаяПодсказка" id="675"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень28" id="518">
-											<DataPath>107/29</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1366,7 +1306,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа29РасширеннаяПодсказка" id="587"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена29" id="676">
-											<DataPath>107/93</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1378,7 +1317,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена29РасширеннаяПодсказка" id="678"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень29" id="521">
-											<DataPath>107/30</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1405,7 +1343,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа30РасширеннаяПодсказка" id="589"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена30" id="679">
-											<DataPath>107/94</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1417,7 +1354,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена30РасширеннаяПодсказка" id="681"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень30" id="524">
-											<DataPath>107/31</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1444,7 +1380,6 @@
 									<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа31РасширеннаяПодсказка" id="591"/>
 									<ChildItems>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена31" id="682">
-											<DataPath>107/95</DataPath>
 											<HorizontalAlign>Center</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1456,7 +1391,6 @@
 											<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена31РасширеннаяПодсказка" id="684"/>
 										</InputField>
 										<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень31" id="527">
-											<DataPath>107/32</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1539,7 +1473,6 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="ТабличноеПолеГрафикаМесяц" id="271">
-									<DataPath>4/1</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
@@ -1555,7 +1488,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаМесяцExtendedTooltip" id="368"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаВидВремени" id="335">
-									<DataPath>4/33</DataPath>
 									<ReadOnly>true</ReadOnly>
 									<EditMode>EnterOnInput</EditMode>
 									<FixingInTable>Left</FixingInTable>
@@ -1577,7 +1509,6 @@
 									<ExtendedTooltip name="ГруппаИтогExtendedTooltip" id="370"/>
 									<ChildItems>
 										<InputField name="ТабличноеПолеГрафикаИтогДни" id="339">
-											<DataPath>4/66</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1593,7 +1524,6 @@
 											<ExtendedTooltip name="ТабличноеПолеГрафикаИтогДниExtendedTooltip" id="371"/>
 										</InputField>
 										<InputField name="ТабличноеПолеГрафикаИтогЧасы" id="341">
-											<DataPath>4/67</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1611,7 +1541,6 @@
 									</ChildItems>
 								</ColumnGroup>
 								<InputField name="ТабличноеПолеГрафикаДень1" id="273">
-									<DataPath>4/2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1619,7 +1548,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень1ExtendedTooltip" id="373"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень2" id="275">
-									<DataPath>4/3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1627,7 +1555,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень2ExtendedTooltip" id="374"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень3" id="277">
-									<DataPath>4/4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1635,7 +1562,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень3ExtendedTooltip" id="375"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень4" id="279">
-									<DataPath>4/5</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1643,7 +1569,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень4ExtendedTooltip" id="376"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень5" id="281">
-									<DataPath>4/6</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1651,7 +1576,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень5ExtendedTooltip" id="377"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень6" id="283">
-									<DataPath>4/7</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1659,7 +1583,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень6ExtendedTooltip" id="378"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень7" id="285">
-									<DataPath>4/8</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1667,7 +1590,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень7ExtendedTooltip" id="379"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень8" id="287">
-									<DataPath>4/9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1675,7 +1597,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень8ExtendedTooltip" id="380"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень9" id="289">
-									<DataPath>4/10</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1683,7 +1604,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень9ExtendedTooltip" id="381"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень10" id="291">
-									<DataPath>4/11</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1691,7 +1611,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень10ExtendedTooltip" id="382"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень11" id="293">
-									<DataPath>4/12</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1699,7 +1618,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень11ExtendedTooltip" id="383"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень12" id="295">
-									<DataPath>4/13</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1707,7 +1625,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень12ExtendedTooltip" id="384"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень13" id="297">
-									<DataPath>4/14</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1715,7 +1632,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень13ExtendedTooltip" id="385"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень14" id="299">
-									<DataPath>4/15</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1723,7 +1639,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень14ExtendedTooltip" id="386"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень15" id="301">
-									<DataPath>4/16</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1731,7 +1646,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень15ExtendedTooltip" id="387"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень16" id="303">
-									<DataPath>4/17</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1739,7 +1653,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень16ExtendedTooltip" id="388"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень17" id="305">
-									<DataPath>4/18</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1747,7 +1660,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень17ExtendedTooltip" id="389"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень18" id="307">
-									<DataPath>4/19</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1755,7 +1667,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень18ExtendedTooltip" id="390"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень19" id="309">
-									<DataPath>4/20</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1763,7 +1674,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень19ExtendedTooltip" id="391"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень20" id="311">
-									<DataPath>4/21</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1771,7 +1681,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень20ExtendedTooltip" id="392"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень21" id="313">
-									<DataPath>4/22</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1779,7 +1688,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень21ExtendedTooltip" id="393"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень22" id="315">
-									<DataPath>4/23</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1787,7 +1695,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень22ExtendedTooltip" id="394"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень23" id="317">
-									<DataPath>4/24</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1795,7 +1702,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень23ExtendedTooltip" id="395"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень24" id="319">
-									<DataPath>4/25</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1803,7 +1709,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень24ExtendedTooltip" id="396"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень25" id="321">
-									<DataPath>4/26</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1811,7 +1716,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень25ExtendedTooltip" id="397"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень26" id="323">
-									<DataPath>4/27</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1819,7 +1723,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень26ExtendedTooltip" id="398"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень27" id="325">
-									<DataPath>4/28</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1827,7 +1730,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень27ExtendedTooltip" id="399"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень28" id="327">
-									<DataPath>4/29</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1835,7 +1737,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень28ExtendedTooltip" id="400"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень29" id="329">
-									<DataPath>4/30</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1843,7 +1744,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень29ExtendedTooltip" id="401"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень30" id="331">
-									<DataPath>4/31</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -1851,7 +1751,6 @@
 									<ExtendedTooltip name="ТабличноеПолеГрафикаДень30ExtendedTooltip" id="402"/>
 								</InputField>
 								<InputField name="ТабличноеПолеГрафикаДень31" id="333">
-									<DataPath>4/32</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>6</Width>
 									<ChoiceButton>false</ChoiceButton>
@@ -2163,7 +2062,6 @@
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 		<ChildItems>
 			<InputField name="Наименование" id="1">
-				<DataPath>1/-3</DataPath>
 				<EditMode>EnterOnInput</EditMode>
 				<Width>30</Width>
 				<HorizontalStretch>false</HorizontalStretch>
@@ -2376,7 +2274,6 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<InputField name="ПредставлениеДанныхСменногоГрафикаМесяцПредставление" id="434">
-										<DataPath>107/1</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2401,7 +2298,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаИтогоРасширеннаяПодсказка" id="686"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаИтогДниПредставление" id="690">
-												<DataPath>107/66</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<ShowInFooter>false</ShowInFooter>
@@ -2410,7 +2306,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаИтогДниПредставлениеРасширеннаяПодсказка" id="692"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаИтогЧасыПредставление" id="687">
-												<DataPath>107/96</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ShowInHeader>false</ShowInHeader>
 												<ShowInFooter>false</ShowInFooter>
@@ -2430,7 +2325,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа1РасширеннаяПодсказка" id="531"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена1" id="592">
-												<DataPath>107/33</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2442,7 +2336,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена1РасширеннаяПодсказка" id="594"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень1" id="437">
-												<DataPath>107/2</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2469,7 +2362,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа2РасширеннаяПодсказка" id="533"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена2" id="595">
-												<DataPath>107/34</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2481,7 +2373,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена2РасширеннаяПодсказка" id="597"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень2" id="440">
-												<DataPath>107/3</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2508,7 +2399,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа3РасширеннаяПодсказка" id="535"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена3" id="598">
-												<DataPath>107/67</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2520,7 +2410,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена3РасширеннаяПодсказка" id="600"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень3" id="443">
-												<DataPath>107/4</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2547,7 +2436,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа4РасширеннаяПодсказка" id="537"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена4" id="601">
-												<DataPath>107/68</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2559,7 +2447,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена4РасширеннаяПодсказка" id="603"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень4" id="446">
-												<DataPath>107/5</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2586,7 +2473,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа5РасширеннаяПодсказка" id="539"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена5" id="604">
-												<DataPath>107/69</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2598,7 +2484,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена5РасширеннаяПодсказка" id="606"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень5" id="449">
-												<DataPath>107/6</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2625,7 +2510,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа6РасширеннаяПодсказка" id="541"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена6" id="607">
-												<DataPath>107/70</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2637,7 +2521,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена6РасширеннаяПодсказка" id="609"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень6" id="452">
-												<DataPath>107/7</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2664,7 +2547,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа7РасширеннаяПодсказка" id="543"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена7" id="610">
-												<DataPath>107/71</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2676,7 +2558,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена7РасширеннаяПодсказка" id="612"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень7" id="455">
-												<DataPath>107/8</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2703,7 +2584,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа8РасширеннаяПодсказка" id="545"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена8" id="613">
-												<DataPath>107/72</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2715,7 +2595,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена8РасширеннаяПодсказка" id="615"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень8" id="458">
-												<DataPath>107/9</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2742,7 +2621,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа9РасширеннаяПодсказка" id="547"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена9" id="616">
-												<DataPath>107/73</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2754,7 +2632,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена9РасширеннаяПодсказка" id="618"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень9" id="461">
-												<DataPath>107/10</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2781,7 +2658,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа10РасширеннаяПодсказка" id="549"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена10" id="619">
-												<DataPath>107/74</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2793,7 +2669,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена10РасширеннаяПодсказка" id="621"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень10" id="464">
-												<DataPath>107/11</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2820,7 +2695,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа11РасширеннаяПодсказка" id="551"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена11" id="622">
-												<DataPath>107/75</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2832,7 +2706,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена11РасширеннаяПодсказка" id="624"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень11" id="467">
-												<DataPath>107/12</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2859,7 +2732,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа12РасширеннаяПодсказка" id="553"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена12" id="625">
-												<DataPath>107/76</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2871,7 +2743,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена12РасширеннаяПодсказка" id="627"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень12" id="470">
-												<DataPath>107/13</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2898,7 +2769,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа13РасширеннаяПодсказка" id="555"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена13" id="628">
-												<DataPath>107/77</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2910,7 +2780,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена13РасширеннаяПодсказка" id="630"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень13" id="473">
-												<DataPath>107/14</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2937,7 +2806,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа14РасширеннаяПодсказка" id="557"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена14" id="631">
-												<DataPath>107/78</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2949,7 +2817,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена14РасширеннаяПодсказка" id="633"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень14" id="476">
-												<DataPath>107/15</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2976,7 +2843,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа15РасширеннаяПодсказка" id="559"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена15" id="634">
-												<DataPath>107/79</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2988,7 +2854,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена15РасширеннаяПодсказка" id="636"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень15" id="479">
-												<DataPath>107/16</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3015,7 +2880,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа16РасширеннаяПодсказка" id="561"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена16" id="637">
-												<DataPath>107/80</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3027,7 +2891,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена16РасширеннаяПодсказка" id="639"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень16" id="482">
-												<DataPath>107/17</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3054,7 +2917,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа17РасширеннаяПодсказка" id="563"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена17" id="640">
-												<DataPath>107/81</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3066,7 +2928,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена17РасширеннаяПодсказка" id="642"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень17" id="485">
-												<DataPath>107/18</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3093,7 +2954,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа18РасширеннаяПодсказка" id="565"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена18" id="643">
-												<DataPath>107/82</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3105,7 +2965,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена18РасширеннаяПодсказка" id="645"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень18" id="488">
-												<DataPath>107/19</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3132,7 +2991,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа19РасширеннаяПодсказка" id="567"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена19" id="646">
-												<DataPath>107/83</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3144,7 +3002,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена19РасширеннаяПодсказка" id="648"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень19" id="491">
-												<DataPath>107/20</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3171,7 +3028,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа20РасширеннаяПодсказка" id="569"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена20" id="649">
-												<DataPath>107/84</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3183,7 +3039,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена20РасширеннаяПодсказка" id="651"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень20" id="494">
-												<DataPath>107/21</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3210,7 +3065,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа21РасширеннаяПодсказка" id="571"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена21" id="652">
-												<DataPath>107/85</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3222,7 +3076,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена21РасширеннаяПодсказка" id="654"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень21" id="497">
-												<DataPath>107/22</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3249,7 +3102,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа22РасширеннаяПодсказка" id="573"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена22" id="655">
-												<DataPath>107/86</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3261,7 +3113,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена22РасширеннаяПодсказка" id="657"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень22" id="500">
-												<DataPath>107/23</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3288,7 +3139,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа23РасширеннаяПодсказка" id="575"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена23" id="658">
-												<DataPath>107/87</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3300,7 +3150,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена23РасширеннаяПодсказка" id="660"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень23" id="503">
-												<DataPath>107/24</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3327,7 +3176,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа24РасширеннаяПодсказка" id="577"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена24" id="661">
-												<DataPath>107/88</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3339,7 +3187,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена24РасширеннаяПодсказка" id="663"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень24" id="506">
-												<DataPath>107/25</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3366,7 +3213,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа25РасширеннаяПодсказка" id="579"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена25" id="664">
-												<DataPath>107/89</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3378,7 +3224,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена25РасширеннаяПодсказка" id="666"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень25" id="509">
-												<DataPath>107/26</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3405,7 +3250,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа26РасширеннаяПодсказка" id="581"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена26" id="667">
-												<DataPath>107/90</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3417,7 +3261,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена26РасширеннаяПодсказка" id="669"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень26" id="512">
-												<DataPath>107/27</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3444,7 +3287,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа27РасширеннаяПодсказка" id="583"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена27" id="670">
-												<DataPath>107/91</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3456,7 +3298,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена27РасширеннаяПодсказка" id="672"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень27" id="515">
-												<DataPath>107/28</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3483,7 +3324,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа28РасширеннаяПодсказка" id="585"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена28" id="673">
-												<DataPath>107/92</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3495,7 +3335,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена28РасширеннаяПодсказка" id="675"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень28" id="518">
-												<DataPath>107/29</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3522,7 +3361,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа29РасширеннаяПодсказка" id="587"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена29" id="676">
-												<DataPath>107/93</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3534,7 +3372,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена29РасширеннаяПодсказка" id="678"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень29" id="521">
-												<DataPath>107/30</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3561,7 +3398,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа30РасширеннаяПодсказка" id="589"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена30" id="679">
-												<DataPath>107/94</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3573,7 +3409,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена30РасширеннаяПодсказка" id="681"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень30" id="524">
-												<DataPath>107/31</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3600,7 +3435,6 @@
 										<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаГруппа31РасширеннаяПодсказка" id="591"/>
 										<ChildItems>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена31" id="682">
-												<DataPath>107/95</DataPath>
 												<HorizontalAlign>Center</HorizontalAlign>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -3612,7 +3446,6 @@
 												<ExtendedTooltip name="ПредставлениеДанныхСменногоГрафикаПредставлениеСмена31РасширеннаяПодсказка" id="684"/>
 											</InputField>
 											<InputField name="ПредставлениеДанныхСменногоГрафикаПредставлениеДень31" id="527">
-												<DataPath>107/32</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3695,7 +3528,6 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<InputField name="ТабличноеПолеГрафикаМесяц" id="271">
-										<DataPath>4/1</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<Title>
 											<v8:item>
@@ -3711,7 +3543,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаМесяцExtendedTooltip" id="368"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаВидВремени" id="335">
-										<DataPath>4/33</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<FixingInTable>Left</FixingInTable>
@@ -3733,7 +3564,6 @@
 										<ExtendedTooltip name="ГруппаИтогExtendedTooltip" id="370"/>
 										<ChildItems>
 											<InputField name="ТабличноеПолеГрафикаИтогДни" id="339">
-												<DataPath>4/66</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -3749,7 +3579,6 @@
 												<ExtendedTooltip name="ТабличноеПолеГрафикаИтогДниExtendedTooltip" id="371"/>
 											</InputField>
 											<InputField name="ТабличноеПолеГрафикаИтогЧасы" id="341">
-												<DataPath>4/67</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -3767,7 +3596,6 @@
 										</ChildItems>
 									</ColumnGroup>
 									<InputField name="ТабличноеПолеГрафикаДень1" id="273">
-										<DataPath>4/2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3775,7 +3603,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень1ExtendedTooltip" id="373"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень2" id="275">
-										<DataPath>4/3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3783,7 +3610,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень2ExtendedTooltip" id="374"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень3" id="277">
-										<DataPath>4/4</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3791,7 +3617,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень3ExtendedTooltip" id="375"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень4" id="279">
-										<DataPath>4/5</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3799,7 +3624,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень4ExtendedTooltip" id="376"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень5" id="281">
-										<DataPath>4/6</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3807,7 +3631,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень5ExtendedTooltip" id="377"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень6" id="283">
-										<DataPath>4/7</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3815,7 +3638,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень6ExtendedTooltip" id="378"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень7" id="285">
-										<DataPath>4/8</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3823,7 +3645,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень7ExtendedTooltip" id="379"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень8" id="287">
-										<DataPath>4/9</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3831,7 +3652,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень8ExtendedTooltip" id="380"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень9" id="289">
-										<DataPath>4/10</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3839,7 +3659,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень9ExtendedTooltip" id="381"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень10" id="291">
-										<DataPath>4/11</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3847,7 +3666,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень10ExtendedTooltip" id="382"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень11" id="293">
-										<DataPath>4/12</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3855,7 +3673,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень11ExtendedTooltip" id="383"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень12" id="295">
-										<DataPath>4/13</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3863,7 +3680,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень12ExtendedTooltip" id="384"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень13" id="297">
-										<DataPath>4/14</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3871,7 +3687,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень13ExtendedTooltip" id="385"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень14" id="299">
-										<DataPath>4/15</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3879,7 +3694,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень14ExtendedTooltip" id="386"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень15" id="301">
-										<DataPath>4/16</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3887,7 +3701,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень15ExtendedTooltip" id="387"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень16" id="303">
-										<DataPath>4/17</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3895,7 +3708,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень16ExtendedTooltip" id="388"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень17" id="305">
-										<DataPath>4/18</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3903,7 +3715,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень17ExtendedTooltip" id="389"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень18" id="307">
-										<DataPath>4/19</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3911,7 +3722,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень18ExtendedTooltip" id="390"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень19" id="309">
-										<DataPath>4/20</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3919,7 +3729,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень19ExtendedTooltip" id="391"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень20" id="311">
-										<DataPath>4/21</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3927,7 +3736,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень20ExtendedTooltip" id="392"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень21" id="313">
-										<DataPath>4/22</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3935,7 +3743,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень21ExtendedTooltip" id="393"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень22" id="315">
-										<DataPath>4/23</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3943,7 +3750,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень22ExtendedTooltip" id="394"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень23" id="317">
-										<DataPath>4/24</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3951,7 +3757,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень23ExtendedTooltip" id="395"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень24" id="319">
-										<DataPath>4/25</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3959,7 +3764,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень24ExtendedTooltip" id="396"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень25" id="321">
-										<DataPath>4/26</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3967,7 +3771,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень25ExtendedTooltip" id="397"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень26" id="323">
-										<DataPath>4/27</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3975,7 +3778,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень26ExtendedTooltip" id="398"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень27" id="325">
-										<DataPath>4/28</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3983,7 +3785,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень27ExtendedTooltip" id="399"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень28" id="327">
-										<DataPath>4/29</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3991,7 +3792,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень28ExtendedTooltip" id="400"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень29" id="329">
-										<DataPath>4/30</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -3999,7 +3799,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень29ExtendedTooltip" id="401"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень30" id="331">
-										<DataPath>4/31</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>
@@ -4007,7 +3806,6 @@
 										<ExtendedTooltip name="ТабличноеПолеГрафикаДень30ExtendedTooltip" id="402"/>
 									</InputField>
 									<InputField name="ТабличноеПолеГрафикаДень31" id="333">
-										<DataPath>4/32</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>6</Width>
 										<ChoiceButton>false</ChoiceButton>

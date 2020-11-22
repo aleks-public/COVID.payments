@@ -48,71 +48,131 @@
 				<Event name="TextEditEnd">МесяцНачисленияСтрокойОкончаниеВводаТекста</Event>
 			</Events>
 		</InputField>
-		<Table name="СотрудникиКВыгрузке" id="4">
-			<Representation>List</Representation>
-			<ChangeRowSet>false</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
+		<CheckBoxField name="ПоказыватьВсеРеквизитыВыгрузки" id="82">
+			<DataPath>ПоказыватьВсеРеквизитыВыгрузки</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПоказыватьВсеРеквизитыВыгрузкиКонтекстноеМеню" id="83"/>
+			<ExtendedTooltip name="ПоказыватьВсеРеквизитыВыгрузкиРасширеннаяПодсказка" id="84"/>
+		</CheckBoxField>
+		<Table name="КВыгрузке" id="39">
+			<Representation>Tree</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>СотрудникиКВыгрузке</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СотрудникиКВыгрузкеКонтекстноеМеню" id="5"/>
-			<AutoCommandBar name="СотрудникиКВыгрузкеКоманднаяПанель" id="6">
+			<DataPath>КВыгрузке</DataPath>
+			<TreeSpecialSearch>false</TreeSpecialSearch>
+			<ContextMenu name="КВыгрузкеКонтекстноеМеню" id="40"/>
+			<AutoCommandBar name="КВыгрузкеКоманднаяПанель" id="41">
 				<ChildItems>
-					<Button name="СотрудникиКВыгрузкеОбновитьСписокСотрудников" id="29">
+					<Button name="КВыгрузкеОбновитьКВыгрузке" id="85">
 						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОбновитьСписокСотрудников</CommandName>
-						<ExtendedTooltip name="СотрудникиКВыгрузкеОбновитьСписокСотрудниковРасширеннаяПодсказка" id="30"/>
+						<CommandName>Form.Command.ОбновитьКВыгрузке</CommandName>
+						<ExtendedTooltip name="КВыгрузкеОбновитьКВыгрузкеРасширеннаяПодсказка" id="86"/>
+					</Button>
+					<Button name="КВыгрузкеВыгрузить" id="87">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Выгрузить</CommandName>
+						<ExtendedTooltip name="КВыгрузкеВыгрузитьРасширеннаяПодсказка" id="88"/>
 					</Button>
 				</ChildItems>
 			</AutoCommandBar>
-			<ExtendedTooltip name="СотрудникиКВыгрузкеРасширеннаяПодсказка" id="7"/>
-			<SearchStringAddition name="СотрудникиКВыгрузкеСтрокаПоиска" id="8">
+			<ExtendedTooltip name="КВыгрузкеРасширеннаяПодсказка" id="42"/>
+			<SearchStringAddition name="КВыгрузкеСтрокаПоиска" id="43">
 				<AdditionSource>
-					<Item>СотрудникиКВыгрузке</Item>
+					<Item>КВыгрузке</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СотрудникиКВыгрузкеСтрокаПоискаКонтекстноеМеню" id="9"/>
-				<ExtendedTooltip name="СотрудникиКВыгрузкеСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+				<ContextMenu name="КВыгрузкеСтрокаПоискаКонтекстноеМеню" id="44"/>
+				<ExtendedTooltip name="КВыгрузкеСтрокаПоискаРасширеннаяПодсказка" id="45"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СотрудникиКВыгрузкеСостояниеПросмотра" id="11">
+			<ViewStatusAddition name="КВыгрузкеСостояниеПросмотра" id="46">
 				<AdditionSource>
-					<Item>СотрудникиКВыгрузке</Item>
+					<Item>КВыгрузке</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СотрудникиКВыгрузкеСостояниеПросмотраКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="СотрудникиКВыгрузкеСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+				<ContextMenu name="КВыгрузкеСостояниеПросмотраКонтекстноеМеню" id="47"/>
+				<ExtendedTooltip name="КВыгрузкеСостояниеПросмотраРасширеннаяПодсказка" id="48"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СотрудникиКВыгрузкеУправлениеПоиском" id="14">
+			<SearchControlAddition name="КВыгрузкеУправлениеПоиском" id="49">
 				<AdditionSource>
-					<Item>СотрудникиКВыгрузке</Item>
+					<Item>КВыгрузке</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СотрудникиКВыгрузкеУправлениеПоискомКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="СотрудникиКВыгрузкеУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+				<ContextMenu name="КВыгрузкеУправлениеПоискомКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="КВыгрузкеУправлениеПоискомРасширеннаяПодсказка" id="51"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<InputField name="СотрудникиКВыгрузкеСотрудник" id="17">
-					<DataPath>СотрудникиКВыгрузке.Сотрудник</DataPath>
+				<CheckBoxField name="КВыгрузкеВыгружать" id="79">
+					<DataPath>КВыгрузке.Выгружать</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СотрудникиКВыгрузкеСотрудникКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="СотрудникиКВыгрузкеСотрудникРасширеннаяПодсказка" id="19"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="КВыгрузкеВыгружатьКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="КВыгрузкеВыгружатьРасширеннаяПодсказка" id="81"/>
+					<Events>
+						<Event name="OnChange">КВыгрузкеВыгружатьПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="КВыгрузкеПодразделение" id="55">
+					<DataPath>КВыгрузке.Подразделение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеПодразделениеКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="КВыгрузкеПодразделениеРасширеннаяПодсказка" id="57"/>
 				</InputField>
-				<InputField name="СотрудникиКВыгрузкеСумма" id="26">
-					<DataPath>СотрудникиКВыгрузке.Сумма</DataPath>
+				<InputField name="КВыгрузкеСотрудник" id="52">
+					<DataPath>КВыгрузке.Сотрудник</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СотрудникиКВыгрузкеСуммаКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="СотрудникиКВыгрузкеСуммаРасширеннаяПодсказка" id="28"/>
+					<ContextMenu name="КВыгрузкеСотрудникКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="КВыгрузкеСотрудникРасширеннаяПодсказка" id="54"/>
 				</InputField>
-				<InputField name="СотрудникиКВыгрузкеКомментарий" id="20">
-					<DataPath>СотрудникиКВыгрузке.Комментарий</DataPath>
+				<InputField name="КВыгрузкеДатаНачала" id="58">
+					<DataPath>КВыгрузке.ДатаНачала</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СотрудникиКВыгрузкеКомментарийКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="СотрудникиКВыгрузкеКомментарийРасширеннаяПодсказка" id="22"/>
+					<ContextMenu name="КВыгрузкеДатаНачалаКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="КВыгрузкеДатаНачалаРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<InputField name="КВыгрузкеДатаОкончания" id="61">
+					<DataPath>КВыгрузке.ДатаОкончания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеДатаОкончанияКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="КВыгрузкеДатаОкончанияРасширеннаяПодсказка" id="63"/>
+				</InputField>
+				<InputField name="КВыгрузкеКоличествоСмен" id="64">
+					<DataPath>КВыгрузке.КоличествоСмен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеКоличествоСменКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="КВыгрузкеКоличествоСменРасширеннаяПодсказка" id="66"/>
+				</InputField>
+				<InputField name="КВыгрузкеДолжность" id="67">
+					<DataPath>КВыгрузке.Должность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеДолжностьКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="КВыгрузкеДолжностьРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="КВыгрузкеДолжностьПоШтатномуРасписанию" id="70">
+					<DataPath>КВыгрузке.ДолжностьПоШтатномуРасписанию</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеДолжностьПоШтатномуРасписаниюКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="КВыгрузкеДолжностьПоШтатномуРасписаниюРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="КВыгрузкеКоличествоСтавок" id="73">
+					<DataPath>КВыгрузке.КоличествоСтавок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеКоличествоСтавокКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="КВыгрузкеКоличествоСтавокРасширеннаяПодсказка" id="75"/>
+				</InputField>
+				<InputField name="КВыгрузкеФизическоеЛицо" id="76">
+					<DataPath>КВыгрузке.ФизическоеЛицо</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КВыгрузкеФизическоеЛицоКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="КВыгрузкеФизическоеЛицоРасширеннаяПодсказка" id="78"/>
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="Исполнитель" id="89">
+			<DataPath>Объект.Исполнитель</DataPath>
+			<ContextMenu name="ИсполнительКонтекстноеМеню" id="90"/>
+			<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="91"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -137,15 +197,15 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="СотрудникиКВыгрузке" id="3">
+		<Attribute name="КВыгрузке" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сотрудники к выгрузке</v8:content>
+					<v8:content>К выгрузке</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>v8:ValueTable</v8:Type>
+				<v8:Type>v8:ValueTree</v8:Type>
 			</Type>
 			<Columns>
 				<Column name="Сотрудник" id="1">
@@ -159,49 +219,18 @@
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 					</Type>
 				</Column>
-				<Column name="Комментарий" id="2">
+				<Column name="Подразделение" id="2">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Комментарий</v8:content>
+							<v8:content>Подразделение</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
 					</Type>
 				</Column>
-				<Column name="ЕстьОшибки" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Есть ошибки</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Сумма" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Column>
-				<Column name="ДатаНачала" id="5">
+				<Column name="ДатаНачала" id="3">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -215,7 +244,7 @@
 						</v8:DateQualifiers>
 					</Type>
 				</Column>
-				<Column name="ДатаОкончания" id="6">
+				<Column name="ДатаОкончания" id="4">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -229,29 +258,23 @@
 						</v8:DateQualifiers>
 					</Type>
 				</Column>
-				<Column name="ГрафикРаботы" id="7">
+				<Column name="КоличествоСмен" id="5">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>График работы</v8:content>
+							<v8:content>Количество смен</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:TypeId>77cc6fa5-d675-4b6f-9723-d34e454c423a</v8:TypeId>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 				</Column>
-				<Column name="Подразделение" id="8">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подразделение</v8:content>
-						</v8:item>
-					</Title>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
-					</Type>
-				</Column>
-				<Column name="Должность" id="9">
+				<Column name="Должность" id="6">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -261,46 +284,129 @@
 					<Type>
 						<v8:Type>cfg:CatalogRef.Должности</v8:Type>
 					</Type>
-					<FunctionalOptions>
-						<Item>FunctionalOption.НеИспользоватьШтатноеРасписание</Item>
-					</FunctionalOptions>
 				</Column>
-				<Column name="ПозицияШтатногоРасписания" id="10">
+				<Column name="ДолжностьПоШтатномуРасписанию" id="7">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Позиция штатного расписания</v8:content>
+							<v8:content>Должность по штатному расписанию</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ШтатноеРасписание</v8:Type>
 					</Type>
-					<FunctionalOptions>
-						<Item>FunctionalOption.ИспользоватьШтатноеРасписание</Item>
-					</FunctionalOptions>
+				</Column>
+				<Column name="КоличествоСтавок" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество ставок</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>4</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ФизическоеЛицо" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физическое лицо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Выгружать" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгружать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
 				</Column>
 			</Columns>
 		</Attribute>
-	</Attributes>
-	<Commands>
-		<Command name="ОбновитьСписокСотрудников" id="1">
+		<Attribute name="ПоказыватьВсеРеквизитыВыгрузки" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить список сотрудников</v8:content>
+					<v8:content>Показывать все реквизиты выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьВсеРеквизитыВыгрузки</Field>
+			</Save>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеДатаНачала</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеДатаОкончания</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеДолжность</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеДолжностьПоШтатномуРасписанию</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеКоличествоСтавок</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КВыгрузкеФизическоеЛицо</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ПоказыватьВсеРеквизитыВыгрузки</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Видимость</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьКВыгрузке" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить к выгрузке</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обновить список сотрудников</v8:content>
+					<v8:content>Обновить к выгрузке</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>StdPicture.Refresh</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>ОбновитьСписокСотрудников</Action>
+			<Action>ОбновитьКВыгрузке</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ИнициализироватьДанные" id="2">
@@ -317,6 +423,26 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ИнициализироватьДанные</Action>
+		</Command>
+		<Command name="Выгрузить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Выгрузить</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 </Form>

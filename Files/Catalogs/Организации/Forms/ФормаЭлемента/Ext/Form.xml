@@ -265,7 +265,6 @@
 							<ExtendedTooltip name="ГруппаНаименованиеПрефиксExtendedTooltip" id="155"/>
 							<ChildItems>
 								<InputField name="Наименование" id="3">
-									<DataPath>1/-3</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<Title>
 										<v8:item>
@@ -1825,7 +1824,6 @@
 						<Button name="ОбщаяКомандаНастройкиПоОрганизацииОбменСБанками" id="540">
 							<Type>Hyperlink</Type>
 							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-							<DataPath>1/-8</DataPath>
 							<ExtendedTooltip name="ОбщаяКомандаНастройкиПоОрганизацииОбменСБанкамиРасширеннаяПодсказка" id="541"/>
 						</Button>
 						<UsualGroup name="ГруппаНастройкиМедицинскогоСтрахования" id="558">
@@ -2150,7 +2148,6 @@
 								<ExtendedTooltip name="ГруппаНаименованиеПрефиксExtendedTooltip" id="155"/>
 								<ChildItems>
 									<InputField name="Наименование" id="3">
-										<DataPath>1/-3</DataPath>
 										<SkipOnInput>true</SkipOnInput>
 										<Title>
 											<v8:item>
@@ -3710,7 +3707,6 @@
 							<Button name="ОбщаяКомандаНастройкиПоОрганизацииОбменСБанками" id="540">
 								<Type>Hyperlink</Type>
 								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-								<DataPath>1/-8</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаНастройкиПоОрганизацииОбменСБанкамиРасширеннаяПодсказка" id="541"/>
 							</Button>
 							<UsualGroup name="ГруппаНастройкиМедицинскогоСтрахования" id="558">

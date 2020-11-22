@@ -30,7 +30,6 @@
 					<ExtendedTooltip name="БанкExtendedTooltip" id="65"/>
 				</InputField>
 				<InputField name="Наименование" id="3">
-					<DataPath>1/-3</DataPath>
 					<SkipOnInput>true</SkipOnInput>
 					<Title>
 						<v8:item>
@@ -403,7 +402,6 @@
 						<ExtendedTooltip name="БанкExtendedTooltip" id="65"/>
 					</InputField>
 					<InputField name="Наименование" id="3">
-						<DataPath>1/-3</DataPath>
 						<SkipOnInput>true</SkipOnInput>
 						<Title>
 							<v8:item>

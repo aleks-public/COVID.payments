@@ -70,6 +70,7 @@
 			<XDTOPackage>COVID</XDTOPackage>
 			<FunctionalOption>ИспользоватьШтатноеРасписание</FunctionalOption>
 			<FunctionalOption>НеИспользоватьШтатноеРасписание</FunctionalOption>
+			<DefinedType>ОснованиеПодписи</DefinedType>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Организации</Catalog>
@@ -79,11 +80,17 @@
 			<Catalog>ШтатноеРасписание</Catalog>
 			<Catalog>COVID_КатегорииМедицинскихРаботников</Catalog>
 			<Catalog>ГрафикиРаботыСотрудников</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>КлассификаторБанков</Catalog>
+			<Document>COVID_ДанныеДляОплатыСмен</Document>
 			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ВидыФормОтчетовОРасходахИЧисленностиРаботниковГосударственныхОрганов</Enum>
 			<DataProcessor>COVID_ВыгрузкаНачислений</DataProcessor>
 			<InformationRegister>НастройкиШтатногоРасписания</InformationRegister>
+			<InformationRegister>COVID_ДанныеОбОплаченныхСменах</InformationRegister>
+			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

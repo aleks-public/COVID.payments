@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<ChartOfCalculationTypes uuid="50a13918-d1e3-443e-a1e2-f7b69db36dfd">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.Начисления" category="Object">
+				<xr:TypeId>e0797754-c804-40ba-87d5-e5cef5366507</xr:TypeId>
+				<xr:ValueId>21ff4555-0785-4a3b-a905-0a9f3f8eb688</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.Начисления" category="Ref">
+				<xr:TypeId>3e0ee7b5-c368-43d9-985d-a9f59f0a5826</xr:TypeId>
+				<xr:ValueId>fd0c6c10-818a-4601-8229-327e7bc93e90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.Начисления" category="Selection">
+				<xr:TypeId>609cf1b5-04f2-4245-8a4e-a711249de775</xr:TypeId>
+				<xr:ValueId>d2506a52-a77a-45d3-8c83-f9c25a91c5bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.Начисления" category="List">
+				<xr:TypeId>1ea1737c-932b-40ca-b612-c8fc5703fee5</xr:TypeId>
+				<xr:ValueId>e309a93c-3dd0-4e9c-9ae8-9b7bcfd56a60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.Начисления" category="Manager">
+				<xr:TypeId>3ae24c15-780a-472b-b4f0-807fb9810a0a</xr:TypeId>
+				<xr:ValueId>51acd226-c7f8-4f0d-bd56-025f3aec7865</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.Начисления" category="DisplacingCalculationTypes">
+				<xr:TypeId>ceecb179-f4a7-4e2a-b4be-75826250a21a</xr:TypeId>
+				<xr:ValueId>2b177389-7934-4f8c-9308-e1d8c9261bd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.Начисления" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>1f457231-e067-4f91-bcc1-4e9a1ebf1084</xr:TypeId>
+				<xr:ValueId>49046f5f-528a-42ec-a626-9cdf0f51c647</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.Начисления" category="BaseCalculationTypes">
+				<xr:TypeId>132ac0c1-6ddb-4dc9-beea-2b07f4442100</xr:TypeId>
+				<xr:ValueId>a089aca0-67b4-49d3-aaee-b0ec585d9fff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.Начисления" category="BaseCalculationTypesRow">
+				<xr:TypeId>71949719-3346-418a-8ef2-f0a0c24ab87f</xr:TypeId>
+				<xr:ValueId>667078db-b47c-4725-a089-5c6f2d6ab7d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.Начисления" category="LeadingCalculationTypes">
+				<xr:TypeId>6b4ea859-5a80-48a5-9eef-f105a9c674c1</xr:TypeId>
+				<xr:ValueId>334480f4-be02-4587-b297-a5bcfdc33086</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.Начисления" category="LeadingCalculationTypesRow">
+				<xr:TypeId>f6bdfbec-9ea0-4fcf-95ea-527d130a995c</xr:TypeId>
+				<xr:ValueId>39a79558-6d08-4506-9f62-4fd9ad32d9ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Начисления</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>be08c831-b5a8-4e28-b13c-26875635a7f1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>
